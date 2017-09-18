@@ -69,9 +69,8 @@ typedef enum {
     POWER_HINT_CPU_BOOST    = 0x00000010,
     POWER_HINT_LAUNCH_BOOST = 0x00000011,
     POWER_HINT_AUDIO        = 0x00000020,
-    // CM hints
-    POWER_HINT_CPU_BOOST    = 0x00000110,
-    POWER_HINT_SET_PROFILE  = 0x00000111,
+    POWER_HINT_SET_PROFILE  = 0x00000030
+
 } power_hint_t;
 
 typedef enum {
